@@ -1,0 +1,21 @@
+@import url(variables.scss);
+@import url(input.scss);
+@import url(button.scss);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'poppins', sans-serif;
+}
+
+input[type="search"]::-webkit-search-cancel-button{
+  cursor: pointer;
+}
+
+.w100{
+  width: 100%;
+}

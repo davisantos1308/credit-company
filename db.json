@@ -1,0 +1,141 @@
+{
+  "usuarios": [
+    {
+      "cpf_usuario": "123.456.789-00",
+      "email_usuario": "joao@example.com",
+      "senha_usuario": "senha123"
+    },
+    {
+      "cpf_usuario": "987.654.321-00",
+      "email_usuario": "maria@example.com",
+      "senha_usuario": "123456"
+    },
+    {
+      "cpf_usuario": "111.222.333-44",
+      "email_usuario": "lucas@example.com",
+      "senha_usuario": "lucas2024"
+    }
+  ],
+  "produtos": [  
+    {
+      "id": 2,
+      "nome": "Camiseta adidas originals",
+      "marca": "Adidas",
+      "preco": 99.90,
+      "cor": "branco",
+      "tamanho_produto": "G",
+      "tipo": "off-white",
+      "imagem": "http://localhost:3000/img-1.png"
+    },
+    {
+      "id": 3,
+      "nome": "Camiseta Inglaterra 1996",
+      "marca": "Umbro",
+      "preco": 600.00,
+      "cor": "branco",
+      "tamanho_produto": "GG",
+      "tipo": "jaqueta",
+      "imagem": "http://localhost:3000/img-3.png"
+    },
+    {
+      "id": 4,
+      "nome": "Bolsa Carteiro",
+      "marca": "Carhartt",
+      "preco": 450.00,
+      "cor": "amarelo",
+      "tamanho_produto": "U",
+      "tipo": "acessório",
+      "imagem": "http://localhost:3000/img-2.png"
+    },
+    {
+      "id": 5,
+      "nome": "Camiseta adidas originals",
+      "marca": "Adidas",
+      "preco": 99.90,
+      "cor": "branco",
+      "tamanho_produto": "G",
+      "tipo": "off-white",
+      "imagem": "http://localhost:3000/img-1.png"
+    },
+    {
+      "id": 6,
+      "nome": "Camiseta Inglaterra 1996",
+      "marca": "Umbro",
+      "preco": 600.00,
+      "cor": "branco",
+      "tamanho_produto": "GG",
+      "tipo": "jaqueta",
+      "imagem": "http://localhost:3000/img-3.png"
+    },
+    {
+      "id": 7,
+      "nome": "Bolsa Carteiro",
+      "marca": "Carhartt",
+      "preco": 450.00,
+      "cor": "amarelo",
+      "tamanho_produto": "U",
+      "tipo": "acessório",
+      "imagem": "http://localhost:3000/img-2.png"
+    },
+    {
+      "id": 8,
+      "nome": "Camiseta adidas originals",
+      "marca": "Adidas",
+      "preco": 99.90,
+      "cor": "branco",
+      "tamanho_produto": "G",
+      "tipo": "off-white",
+      "imagem": "http://localhost:3000/img-1.png"
+    },
+    {
+      "id": 9,
+      "nome": "Camiseta Inglaterra 1996",
+      "marca": "Umbro",
+      "preco": 600.00,
+      "cor": "branco",
+      "tamanho_produto": "GG",
+      "tipo": "jaqueta",
+      "imagem": "http://localhost:3000/img-3.png"
+    },
+    {
+      "id": 10,
+      "nome": "Bolsa Carteiro",
+      "marca": "Carhartt",
+      "preco": 450.00,
+      "cor": "amarelo",
+      "tamanho_produto": "U",
+      "tipo": "acessório",
+      "imagem": "http://localhost:3000/img-2.png"
+    },
+    {
+      "id": 11,
+      "nome": "Camiseta adidas originals",
+      "marca": "Adidas",
+      "preco": 99.90,
+      "cor": "branco",
+      "tamanho_produto": "G",
+      "tipo": "off-white",
+      "imagem": "http://localhost:3000/img-1.png"
+    },
+    {
+      "id": 12,
+      "nome": "Camiseta Inglaterra 1996",
+      "marca": "Umbro",
+      "preco": 600.00,
+      "cor": "branco",
+      "tamanho_produto": "GG",
+      "tipo": "jaqueta",
+      "imagem": "http://localhost:3000/img-3.png"
+    },
+    {
+      "id": 13,
+      "nome": "Bolsa Carteiro",
+      "marca": "Carhartt",
+      "preco": 450.00,
+      "cor": "amarelo",
+      "tamanho_produto": "U",
+      "tipo": "acessório",
+      "imagem": "http://localhost:3000/img-2.png"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.card{
+  width: 100%;
+  /* background-color: var(--cor-fundo-card); */
+  border: 1px solid var(--cor-footer);
+
+  a{
+    text-decoration: none;
+    color: var(--cor-footer);
+  }
+
+  &__image{
+    width: 100%;
+  }
+
+  &__description{ 
+    padding: 1rem .5rem;
+    span{
+      font-size: 12px;
+    }
+  }
+}

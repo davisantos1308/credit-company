@@ -1,0 +1,11 @@
+.conteiner__home{
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem 8rem;
+
+  &__products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+  }
+}

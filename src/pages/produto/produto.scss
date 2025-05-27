@@ -1,0 +1,15 @@
+.conteiner-card{
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+
+  img{
+    width: 29rem;
+  }
+
+  &__info{
+    display: grid;
+    align-content: space-between;
+    white-space: nowrap;
+  }
+}

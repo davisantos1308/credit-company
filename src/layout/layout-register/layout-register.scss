@@ -1,0 +1,19 @@
+.register {
+  height: 100vh;
+  overflow: hidden;
+
+  .header-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-fonte);
+    height: 10rem;
+  }
+
+  .content-register {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

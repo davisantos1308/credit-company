@@ -1,0 +1,60 @@
+.sidebar {
+  padding: 1rem 3rem;
+  width: 20rem;
+  transition: width 0.6s linear;
+  background-color: var(--cor-sidebar);
+  text-align: center;
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  ul {
+    width: 100%;
+    transition: opacity 0.6s linear;
+    margin: 1rem;
+    display: grid;
+    gap: 1rem;
+
+    :hover {
+      background-color: var(--cor-fundo-sidebar);
+      transition: background-color 0.8s ease;
+      border-radius: .25rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--cor-footer);
+
+      li {
+        list-style: none;
+        text-align: start;
+        padding: .5rem;
+      }
+    }
+  }
+
+  &--open {
+    @extend .sidebar;
+  }
+
+  &--close {
+    width: 10rem;
+    transition: width 0.6s ease-out;
+
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+
+    padding: 1rem 3rem;
+
+    ul {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
